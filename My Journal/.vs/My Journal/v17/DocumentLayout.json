@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\Monimbo-iglesia\\My Journal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7A822D-71D0-4905-A4F2-D15B27AE0475}|My Journal\\My Journal.csproj|c:\\users\\usuario\\documents\\monimbo-iglesia\\my journal\\my journal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7A822D-71D0-4905-A4F2-D15B27AE0475}|My Journal\\My Journal.csproj|solutionrelative:my journal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC7A822D-71D0-4905-A4F2-D15B27AE0475}|My Journal\\My Journal.csproj|c:\\users\\usuario\\documents\\monimbo-iglesia\\my journal\\my journal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC7A822D-71D0-4905-A4F2-D15B27AE0475}|My Journal\\My Journal.csproj|solutionrelative:my journal\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Monimbo-iglesia\\My Journal\\My Journal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "My Journal\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Monimbo-iglesia\\My Journal\\My Journal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "My Journal\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAswCsAAACJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T22:54:15.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\Monimbo-iglesia\\My Journal\\My Journal\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "My Journal\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\Monimbo-iglesia\\My Journal\\My Journal\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "My Journal\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-12T22:45:08.926Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

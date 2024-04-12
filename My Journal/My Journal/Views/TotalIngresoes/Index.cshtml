@@ -1,0 +1,59 @@
+﻿@model IEnumerable<My_Journal.Models.TotalIngreso>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Total Ingresos</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalIngreso1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MesIngresos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdDiezmoNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdOfrendasNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdVariosNavigation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalIngreso1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MesIngresos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdDiezmoNavigation.IdDiezmo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdOfrendasNavigation.IdOfrendas)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdVariosNavigation.IdVarios)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdTotalIngresos">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdTotalIngresos">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdTotalIngresos">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
