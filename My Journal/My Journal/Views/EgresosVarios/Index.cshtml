@@ -9,6 +9,14 @@
 <p>
     <a asp-action="Create">Create New</a>
 </p>
+
+<form asp-controller="EgresosVarios" asp-action="index" method=get>  
+<p>
+ Buscar: <input type="text name="buscar" class="form-text/>
+         <input type="submit" value="buscar">
+</p>
+</form>
+
 <table class="table">
     <thead>
         <tr>
