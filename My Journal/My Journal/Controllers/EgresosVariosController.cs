@@ -19,8 +19,14 @@ namespace My_Journal.Controllers
         }
 
         // GET: EgresosVarios
-        public async Task<IActionResult> Index()
-        {
+        public async Task<IActionResult> Index(string buscar)
+        {    
+             IQueryable<EgresosVario> egresos = _context.EgresosVarios;
+
+            if (string.IsNullorEmpty(buscar)){
+                egresos= egresos.Where(s => s.Descripcion!.Cotains(buscar));
+            }
+            
             return View(await _context.EgresosVarios.ToListAsync());
         }
 
