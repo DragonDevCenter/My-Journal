@@ -154,6 +154,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 CREATE TABLE [dbo].[pagos_basicos](
 	[Id_pagos] [int] IDENTITY(1,1) NOT NULL,
+	[Descripcion] [varchar] NOT NULL,
 	[Cantidad] [int] NULL,
 	[fecha_pago] [date] NULL,
 PRIMARY KEY CLUSTERED 
@@ -314,7 +315,7 @@ GO
 
 	insert into Categoria_ofrendas (nombre_categoria, descripcion, esActivo) values ('Culto general', 'ya sea de oracion, escuela biblica o de predicacion', '1')
 	insert into Categoria_ofrendas (nombre_categoria, descripcion, esActivo) values ('Ministerio Femenil', 'Reunion solo de mujeres', '1')
-	insert into Categoria_ofrendas (nombre_categoria, descripcion, esActivo) values ('Ministerio de jovenes', 'Reunion de jovenes adolecentes entre 15 a 25 años', '1')
+	insert into Categoria_ofrendas (nombre_categoria, descripcion, esActivo) values ('Ministerio de jovenes', 'Reunion de jovenes adolecentes entre 15 a 25 aÃ±os', '1')
 	insert into Categoria_ofrendas (nombre_categoria, descripcion, esActivo) values ('Ministerio de hombres', 'Reunion solo de hombres', '1')
 
 	insert into ofrendas (Cantidad) values (500)
