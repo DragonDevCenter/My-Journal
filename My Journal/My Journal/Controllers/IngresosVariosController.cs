@@ -19,8 +19,16 @@ namespace My_Journal.Controllers
         }
 
         // GET: IngresosVarios
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(String buscar)
         {
+          IQueryable<IngresosVarios> ingresos = _context.IngresosVarios;
+
+
+            if (string.IsNullorEmpty(buscar)){
+                ingresos= ingresos.Where(s => s.Descripcion!.Cotains(buscar));
+            }
+            
+            }
             return View(await _context.IngresosVarios.ToListAsync());
         }
 
