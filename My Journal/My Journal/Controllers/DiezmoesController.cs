@@ -27,7 +27,6 @@ namespace My_Journal.Controllers
             if (string.IsNullorEmpty(buscar)){
                 Diezmo= Diezmo.Where(s => s.Descripcion!.Cotains(buscar));
             }
-
         
             return View(await _context.Diezmos.ToListAsync());
         }
