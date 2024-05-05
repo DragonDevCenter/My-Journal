@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pbjKzBvrx7LogvRIePvz7tC5suSc/EUEqZhYNQ/9ks7YYbjqNMIlNKhgru7VEcqnJyRqoYDYpD/OsSl9mKAmmA==",
+  "dgSpecHash": "wopOodfCoeb6iHvyTm4Xp8ET/WcDaCyY/GAcdiMkRFXZaUGEE1665QuKejIPRMuNvVYByFBXU4EsOrex+cEfeg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cinth\\source\\repos\\My-Journal-\\My Journal\\My Journal\\My Journal.csproj",
+  "projectFilePath": "C:\\Users\\cinth\\source\\repos\\My-Journal\\My Journal\\My Journal\\My Journal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cinth\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\cinth\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

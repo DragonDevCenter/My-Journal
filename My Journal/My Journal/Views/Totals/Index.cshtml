@@ -1,10 +1,8 @@
 ﻿@model IEnumerable<My_Journal.Models.Total>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Saldo Total";
 }
-
-<h1>Saldo Total</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -28,26 +26,27 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Total1)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.MesTotal)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdTotalEgresosNavigation.IdTotalEgresos)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IdTotalIngresosNavigation.IdTotalIngresos)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IdTotal">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IdTotal">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IdTotal">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Total1)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MesTotal)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdTotalEgresosNavigation.IdTotalEgresos)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdTotalIngresosNavigation.IdTotalIngresos)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.IdTotal">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.IdTotal">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.IdTotal">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

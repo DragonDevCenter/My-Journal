@@ -21,12 +21,12 @@ namespace My_Journal.Controllers
         // GET: Diezmoes
         public async Task<IActionResult> Index(String buscar)
         {   
-             IQueryable<Diezmo> Diezmo= _context.Diezmos;
+            // IQueryable<Diezmo> Diezmo= _context.Diezmos;
 
 
-            if (string.IsNullorEmpty(buscar)){
-                Diezmo= Diezmo.Where(s => s.Descripcion!.Cotains(buscar));
-            }
+            //if (string.IsNullorEmpty(buscar)){
+            //    Diezmo= Diezmo.Where(s => s.Descripcion!.Cotains(buscar));
+            //}
         
             return View(await _context.Diezmos.ToListAsync());
         }
