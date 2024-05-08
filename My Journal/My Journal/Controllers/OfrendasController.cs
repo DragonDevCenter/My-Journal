@@ -5,15 +5,15 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using My_Journal.Models;
+using My_Journal;
 
 namespace My_Journal.Controllers
 {
     public class OfrendasController : Controller
     {
-        private readonly MonimboBautistaRenacerContext _context;
+        private readonly CbnIglesiaContext _context;
 
-        public OfrendasController(MonimboBautistaRenacerContext context)
+        public OfrendasController(CbnIglesiaContext context)
         {
             _context = context;
         }
@@ -21,7 +21,8 @@ namespace My_Journal.Controllers
         // GET: Ofrendas
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Ofrendas.ToListAsync());
+            var cbnIglesiaContext = _context.Ofrendas.Include(o => o.UsuarioCreacionNavigation);
+            return View(await cbnIglesiaContext.ToListAsync());
         }
 
         // GET: Ofrendas/Details/5
@@ -33,7 +34,8 @@ namespace My_Journal.Controllers
             }
 
             var ofrenda = await _context.Ofrendas
-                .FirstOrDefaultAsync(m => m.IdOfrendas == id);
+                .Include(o => o.UsuarioCreacionNavigation)
+                .FirstOrDefaultAsync(m => m.IdOfrenda == id);
             if (ofrenda == null)
             {
                 return NotFound();
@@ -45,6 +47,7 @@ namespace My_Journal.Controllers
         // GET: Ofrendas/Create
         public IActionResult Create()
         {
+            ViewData["UsuarioCreacion"] = new SelectList(_context.Usuarios, "IdUsuario", "IdUsuario");
             return View();
         }
 
@@ -53,7 +56,7 @@ namespace My_Journal.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdOfrendas,Cantidad,FechaOfrenda")] Ofrenda ofrenda)
+        public async Task<IActionResult> Create([Bind("IdOfrenda,Cantidad,Descripcion,Fecha,UsuarioCreacion,FechaCreacion,UsuarioModifica,FechaModifica")] Ofrenda ofrenda)
         {
             if (ModelState.IsValid)
             {
@@ -61,6 +64,7 @@ namespace My_Journal.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["UsuarioCreacion"] = new SelectList(_context.Usuarios, "IdUsuario", "IdUsuario", ofrenda.UsuarioCreacion);
             return View(ofrenda);
         }
 
@@ -77,6 +81,7 @@ namespace My_Journal.Controllers
             {
                 return NotFound();
             }
+            ViewData["UsuarioCreacion"] = new SelectList(_context.Usuarios, "IdUsuario", "IdUsuario", ofrenda.UsuarioCreacion);
             return View(ofrenda);
         }
 
@@ -85,9 +90,9 @@ namespace My_Journal.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdOfrendas,Cantidad,FechaOfrenda")] Ofrenda ofrenda)
+        public async Task<IActionResult> Edit(int id, [Bind("IdOfrenda,Cantidad,Descripcion,Fecha,UsuarioCreacion,FechaCreacion,UsuarioModifica,FechaModifica")] Ofrenda ofrenda)
         {
-            if (id != ofrenda.IdOfrendas)
+            if (id != ofrenda.IdOfrenda)
             {
                 return NotFound();
             }
@@ -101,7 +106,7 @@ namespace My_Journal.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!OfrendaExists(ofrenda.IdOfrendas))
+                    if (!OfrendaExists(ofrenda.IdOfrenda))
                     {
                         return NotFound();
                     }
@@ -112,6 +117,7 @@ namespace My_Journal.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["UsuarioCreacion"] = new SelectList(_context.Usuarios, "IdUsuario", "IdUsuario", ofrenda.UsuarioCreacion);
             return View(ofrenda);
         }
 
@@ -124,7 +130,8 @@ namespace My_Journal.Controllers
             }
 
             var ofrenda = await _context.Ofrendas
-                .FirstOrDefaultAsync(m => m.IdOfrendas == id);
+                .Include(o => o.UsuarioCreacionNavigation)
+                .FirstOrDefaultAsync(m => m.IdOfrenda == id);
             if (ofrenda == null)
             {
                 return NotFound();
@@ -150,7 +157,7 @@ namespace My_Journal.Controllers
 
         private bool OfrendaExists(int id)
         {
-            return _context.Ofrendas.Any(e => e.IdOfrendas == id);
+            return _context.Ofrendas.Any(e => e.IdOfrenda == id);
         }
     }
 }

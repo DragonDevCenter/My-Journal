@@ -26,92 +26,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\cinth\source\repos\My-Journal\My Journal\My Journal
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Diezmoes/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllem1vZXNcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Diezmoes/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllem1vZXNcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Diezmoes/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllem1vZXNcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Diezmoes/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllem1vZXNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Diezmoes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllem1vZXNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/EgresosVarios/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWdyZXNvc1Zhcmlvc1xDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/EgresosVarios/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWdyZXNvc1Zhcmlvc1xEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/EgresosVarios/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWdyZXNvc1Zhcmlvc1xEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/EgresosVarios/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWdyZXNvc1Zhcmlvc1xFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/EgresosVarios/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRWdyZXNvc1Zhcmlvc1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/IngresosVarios/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVzb3NWYXJpb3NcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/IngresosVarios/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVzb3NWYXJpb3NcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/IngresosVarios/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVzb3NWYXJpb3NcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/IngresosVarios/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVzb3NWYXJpb3NcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/IngresosVarios/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5ncmVzb3NWYXJpb3NcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Login/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Login/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Login/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Login/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Login/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Ofrendas/Create.cshtml]
@@ -134,112 +54,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZyZW5kYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/PagosBasicoes/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb3NCYXNpY29lc1xDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/PagosBasicoes/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb3NCYXNpY29lc1xEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/PagosBasicoes/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb3NCYXNpY29lc1xEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/PagosBasicoes/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb3NCYXNpY29lc1xFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/PagosBasicoes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnb3NCYXNpY29lc1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/TotalEgresoes/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG90YWxFZ3Jlc29lc1xDcmVhdGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/TotalEgresoes/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG90YWxFZ3Jlc29lc1xEZWxldGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/TotalEgresoes/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG90YWxFZ3Jlc29lc1xEZXRhaWxzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/TotalEgresoes/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG90YWxFZ3Jlc29lc1xFZGl0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/TotalEgresoes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG90YWxFZ3Jlc29lc1xJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/TotalIngresoes/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG90YWxJbmdyZXNvZXNcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/TotalIngresoes/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG90YWxJbmdyZXNvZXNcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/TotalIngresoes/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG90YWxJbmdyZXNvZXNcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/TotalIngresoes/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG90YWxJbmdyZXNvZXNcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/TotalIngresoes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG90YWxJbmdyZXNvZXNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Totals/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG90YWxzXENyZWF0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Totals/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG90YWxzXERlbGV0ZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Totals/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG90YWxzXERldGFpbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Totals/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG90YWxzXEVkaXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Totals/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG90YWxzXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Usuarios/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcQ3JlYXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Usuarios/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Usuarios/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRGV0YWlscy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Usuarios/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/Usuarios/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/cinth/source/repos/My-Journal/My Journal/My Journal/Views/_ViewImports.cshtml]
